@@ -1,8 +1,7 @@
-from PIL import Image
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
-
+from PIL import Image
 
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
@@ -18,7 +17,7 @@ def local_css(file_name):
 
 local_css("style/style.css")
 
-lottie_coding = load_lottieurl("https://assets4.lottiefiles.com/private_files/lf30_kh4qi0dn.json")
+lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 img_contact_form = Image.open("images/bar_star.jpg")
 img_Lottie_animation = Image.open("images/Kitten_True_For.jpg")
 img_contact_form2 = Image.open("images/harmonica_shop.jpg")
@@ -94,7 +93,7 @@ with st.container():
             to the very creators of this historic instrument>   
             """
         )
-        
+
 with st.container():
     st.write("---")
     st.header("Get in touch with me!")
