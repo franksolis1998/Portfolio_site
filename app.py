@@ -17,16 +17,16 @@ def local_css(file_name):
 
 local_css("style/style.css")
 
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
+lottie_coding = load_lottieurl("https://assets9.lottiefiles.com/private_files/lf30_kh4qi0dn.json")
 img_contact_form = Image.open("images/bar_star.jpg")
 img_Lottie_animation = Image.open("images/Kitten_True_For.jpg")
 img_contact_form2 = Image.open("images/harmonica_shop.jpg")
 
 with st.container():
-    st.subheader("Hi, I'm Francisco Solis:wave:")
+    st.subheader("Hello there, I'm Francisco Solis :wave:")
     st.title('I am a fledgeling Programmer from Houston, Texas')
     st.write("I am a classically minded person who is passionate about efficant and productive code.")
-    st.write("[Learn More >](https://pythonislife.co)")
+    st.write("[Learn More >](https://github.com/franksolis1998)")
 
 
 with st.container():
@@ -50,6 +50,8 @@ with st.container():
 
     
 with st.container():
+    st.write("---")
+    st.markdown("<h1 style='text-align: center; color: white;'>The Images shown are placeholders and belong to thier repective owners</h1>", unsafe_allow_html=True)
     st.write("---")
     st.header("My Projects")
     st.write("##")
@@ -75,7 +77,7 @@ with st.container():
         st.subheader("Bar Star")
         st.write(
             """
-            A interactive mobile app for the user to find thr best drink with anything immediately at hand! 
+            A interactive mobile app for the user to find the best drink with anything immediately at hand! 
             """
         )
 
@@ -101,7 +103,7 @@ with st.container():
 
 
     contact_form ="""
-    <form action="https://formsubmit.co/your@email.com" method="POST">
+    <form action="https://formsubmit.co/Aztecruss762@gmail.com" method="POST">
         <input type="hidden" name"_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
