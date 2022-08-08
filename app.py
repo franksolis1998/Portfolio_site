@@ -25,7 +25,9 @@ img_contact_form2 = Image.open("images/harmonica_shop.jpg")
 with st.container():
     st.subheader("Hello there, I'm Francisco Solis :wave:")
     st.title('I am a fledgeling Programmer from Houston, Texas')
-    st.write("I am a classically minded person who is passionate about efficant and productive code.")
+    st.write("I am a Classically Minded Person who is passionate about efficient and productive code.")
+    st.write("I was rasied by my Father who was a hardworking and industrius man in his humble field of Janitorial Services but he instilled hard working values that I strive to achive, as a young Professiaonal i have a child a 125lb Scooby-Doo lookalike dog named Waffles who brings joy in my life.")
+    st.write("The hobbies I enjoy are camping, walking my dog, eating all the good food my friends and i can find and attempting to solve algoithims.  ")
     st.write("[Learn More >](https://github.com/franksolis1998)")
 
 
