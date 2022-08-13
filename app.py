@@ -53,7 +53,7 @@ with st.container():
     
 with st.container():
     st.write("---")
-    st.markdown("<h1 style='text-align: center; color: black;'>The Images shown are placeholders and belong to thier repective owners</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: black;'>The Images shown are placeholders and belong to thier repective owners, this app was created to see if i could make one</h1>", unsafe_allow_html=True)
     st.write("---")
     st.header("My Projects")
     st.write("##")
