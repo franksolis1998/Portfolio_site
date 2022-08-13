@@ -28,7 +28,8 @@ with st.container():
     st.write("I am a Classically Minded Person who is passionate about efficient and productive code.")
     st.write("I was rasied by my Father who was a hardworking and industrius man in his humble field of Janitorial Services but he instilled hard working values that I strive to achive, as a young professiaonal i have a 125lb Scooby-Doo lookalike dog named Waffles who brings joy to my life.")
     st.write("The hobbies I enjoy are camping, walking my dog, eating all the good food with my friends and i like attempting to solve algoithims.  ")
-    st.write("[Learn More >](https://github.com/franksolis1998)")
+    st.write("[My GitHub >](https://github.com/franksolis1998)")
+    st.write("[My Linkdln >](https://www.linkedin.com/in/francisco-solis-573707122/)")
 
 
 with st.container():
