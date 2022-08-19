@@ -2,6 +2,8 @@ import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
 from PIL import Image
+import streamlit.components.v1 as components
+
 
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
@@ -54,10 +56,12 @@ with st.container():
     
 with st.container():
     st.write("---")
-    st.markdown("<h1 style='text-align: center; color: black;'>The Images shown are placeholders and belong to thier repective owners, this app was created to see if i could make one</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: white;'>The Images shown are placeholders and belong to thier repective owners, this app was created to see if i could make one</h1>", unsafe_allow_html=True)
     st.write("---")
     st.header("My Projects")
     st.write("##")
+
+
     image_column, text_column = st.columns((1, 2))
     with image_column:
         st.image(img_Lottie_animation)
@@ -70,6 +74,7 @@ with st.container():
                 A more fluid landing, registering and logging in page(s) a more streamlined example of the famous MMO clone
                 """
             )
+            st.write("[Wizard's>](https://github.com/franksolis1998/Wizards_102)")
 
 with st.container():
     image_colmun, text_column = st.columns((1,2))
@@ -83,6 +88,8 @@ with st.container():
             A interactive mobile app for the user to find the best drink with anything immediately at hand! 
             """
         )
+        st.write("[BarStar Play Store>](https://github.com/franksolis1998)")
+        st.write("[BarStar App Store >](https://github.com/franksolis1998)")
 
 with st.container():
     image_colmun, text_column = st.columns((1,2))
@@ -98,6 +105,7 @@ with st.container():
             to the very creators of this historic instrument
             """
         )
+        st.write("[Harmmonic Shop Repositoriy >](https://github.com/franksolis1998)")
 
 with st.container():
     st.write("---")
